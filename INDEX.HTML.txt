@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>FILM BOOKING</title>
+        <body>
+            <h1>Book Your Tickets</h1>
+            <form>
+                <br>
+                <label>Full Name </label>
+                <input type="full name" placeholder="Enter your full Name"></input>
+
+                <LABEL>Email Address </LABEL>
+             <input type="email address" placeholder="Enter your email address">
+            </input>
+        <br><br>
+        <label>Mobile Number</label>
+        <input type="Mobile" placeholder="Enter your 10digit mobile no">
+        </input>
+    <label>City</label>
+    <input type="City" placeholder="Select your City">
+    </input>
+</br>
+<br><br>
+<label>Select Movie</label>
+<input type="Select Movie" placeholder="Select a Movie">
+</input>
+<title>Select Date</title>
+<input type="Select date " placeholder="dd-mm-yyyy">
+</input>
+</br>
+<br><br>
+<label>Select Time </label>
+<input type="Select Time" placeholder="Select Time">
+</input>
+<label>Select Cinema</label>
+<input type="Select Cinema" placeholder="Select Cinema">
+</input>
+</br>
+<br>
+<label>Number of Tickets</label>
+<input type="radio" name="tickets">1
+<input type="radio" name="tickets">2
+<input type="radio" name="tickets">3
+<input type="radio" name="tickets">4
+<input type="radio" name="tickets">5+
+</input>
+</br>
+<br><br>
+<label>Select seat(s)</label>
+<input type="checkbox" name="seat">Available
+<input type="checkbox" name="seat">Booked
+<input type="checkbox" name="seat">Selected
+</input>
+</br>
+<br><br>
+<label>Payment Method</label>
+<input type="radio" name="payment">UPI
+<INPUT type="radio" name="payment">Credit/Debit Card
+    <input type="radio" name="payment">Net Banking
+    <input type="radio" name="payment">Wallets
+</input>
+</br>
+<br><br>
+<label>Additional notes(Optional)</label>
+</br>
+<br>
+<input type="additional notes" placeholder="Any Specific requests or notes">
+</input>
+</br>
+<br><br>
+<button type="Book now">BOOK NOW
+</button>
+</form>
+</body>
+</head>
+</html>
